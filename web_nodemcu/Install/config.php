@@ -1,0 +1,1 @@
+<?php $array=array('dbtype'=>'mysql','dbhost'=>'127.0.0.1','dbname'=>'ms','dbuser'=>'root','dbpassword'=>'root');?>

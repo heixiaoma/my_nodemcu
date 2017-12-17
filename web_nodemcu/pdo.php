@@ -1,0 +1,20 @@
+<?php
+/*
+程序员的必要精神，减少代码！提高代码复用性，提高效率！
+PDO抽象层，连接必要数据！
+作用，PDO连接数据的必要参数配置
+               黑小马
+            2015-08-12
+*/
+//导入config.php连接数据库用！
+include("Install/config.php");
+//config数组里取出信息！
+	$dbname=$array['dbname'];
+	$dbtype=$array['dbtype'];
+	$dbuser=$array['dbuser'];
+	$dbpassword=$array['dbpassword'];
+	$dbhost=$array['dbhost'];
+	//PDO抽象层，dsn配置
+	$dsn="$dbtype:host=$dbhost;dbname=$dbname";
+	
+?>
